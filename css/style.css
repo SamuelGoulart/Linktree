@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 :root{
@@ -126,6 +126,9 @@ footer{
 }
 
 @media (max-width: 1200px) {
+    *{
+        overflow-y: auto;
+    }
    header{
        column-gap: 59vw;
    }
